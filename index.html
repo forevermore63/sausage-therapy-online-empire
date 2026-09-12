@@ -1,435 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sausage Therapy | Therapy Sausages · Noosa Dachshunds · Forevermore Farm</title>
-  <meta name="description" content="Sausage Therapy — animal-assisted wellness, NDIS pet therapy, emotional support dachshunds, and conscious impact. From true healing to tremendous transformation. Book sessions, join memberships, support the dream.">
-  <meta name="keywords" content="Sausage Therapy, Therapy Sausages, Noosa Dachshunds, animal assisted therapy, NDIS pet therapy, emotional support dogs, dachshund therapy, Forevermore Farm, wellness retreat Queensland">
-  <meta property="og:title" content="Sausage Therapy — From True to Tremendous">
-  <meta property="og:description" content="Healing through dachshunds. Therapy sessions, NDIS support, memberships, and impact that grows the dream.">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#1a3c34">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            sausage: {
-              50: '#f0f7f4',
-              100: '#d9ebe3',
-              200: '#b3d7c7',
-              300: '#7fbaa3',
-              400: '#4d9a7d',
-              500: '#2d7a5f',
-              600: '#1a3c34',
-              700: '#14302a',
-              800: '#0f241f',
-              900: '#0a1815',
-            },
-            cream: '#f8f1e3',
-            gold: '#c9a227'
-          },
-          fontFamily: {
-            display: ['Georgia', 'serif'],
-            body: ['system-ui', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
-    body { font-family: 'Inter', system-ui, sans-serif; }
-    .font-display { font-family: 'Playfair Display', Georgia, serif; }
-    .hero-gradient { background: linear-gradient(135deg, #0a1815 0%, #1a3c34 40%, #2d7a5f 100%); }
-    .card-hover { transition: all 0.3s ease; }
-    .card-hover:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(26, 60, 52, 0.15); }
-    .impact-number { font-variant-numeric: tabular-nums; }
-    .pulse-soft { animation: pulse-soft 2.5s infinite; }
-    @keyframes pulse-soft {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.7; }
-    }
-  </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Sausage Therapy — From True to Tremendous</title>
+<meta name="description" content="Dachshund-assisted therapy, NDIS-friendly sessions, farm retreats, Pawport World ID, and digital academy. Forevermore Farm · Noosa Dachshunds · Emily Blue Richards."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--ink:#102018;--cream:#f6f0e4;--gold:#c9a24a;--leaf:#1f4a34;--moss:#2d6a4f;--card:#fffdf8;--line:#e4d8c0}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--cream);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif}
+a{color:inherit}h1,h2,h3,.brand{font-family:Fraunces,Georgia,serif}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+nav{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;padding:16px 0}
+.brand{font-weight:700;font-size:1.15rem;letter-spacing:.02em}
+.links{display:flex;flex-wrap:wrap;gap:14px;font-size:.92rem}
+.links a{text-decoration:none;opacity:.85}
+.links a:hover{opacity:1;color:var(--leaf)}
+.hero{padding:48px 0 28px;display:grid;grid-template-columns:1.2fr .8fr;gap:36px;align-items:center}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:24px}}
+.kicker{color:var(--moss);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.75rem}
+h1{font-size:clamp(2.1rem,5vw,3.6rem);line-height:1.08;margin:.3em 0 .4em}
+.lead{font-size:1.15rem;line-height:1.55;max-width:38em}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.btn{display:inline-block;background:var(--leaf);color:#fff;text-decoration:none;padding:12px 18px;border-radius:999px;font-weight:700}
+.btn.gold{background:var(--gold);color:var(--ink)}
+.btn.ghost{background:transparent;border:1.5px solid var(--ink)}
+.pulse{background:var(--ink);color:var(--cream);border-radius:18px;padding:22px}
+.pulse strong{color:var(--gold)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:28px 0}
+@media(max-width:700px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.stat b{display:block;font-family:Fraunces,serif;font-size:1.6rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:16px 0 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h3{margin:.2em 0 .4em}
+footer{padding:40px 0 60px;font-size:.9rem;opacity:.85}
+</style>
 </head>
-<body class="bg-cream text-sausage-900 antialiased">
-
-  <!-- Navigation -->
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-sausage-900/95 backdrop-blur-md text-white border-b border-sausage-700">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-      <a href="#" class="font-display text-xl sm:text-2xl font-semibold tracking-tight">Sausage Therapy</a>
-      <div class="hidden md:flex items-center gap-8 text-sm font-medium">
-        <a href="#services" class="hover:text-gold transition">Services</a>
-        <a href="#impact" class="hover:text-gold transition">Impact</a>
-        <a href="#membership" class="hover:text-gold transition">Membership</a>
-        <a href="#products" class="hover:text-gold transition">Products</a>
-        <a href="#book" class="bg-gold text-sausage-900 px-4 py-2 rounded-full font-semibold hover:bg-yellow-400 transition">Book Now</a>
-      </div>
-      <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Menu">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-      </button>
+<body>
+<div class="wrap">
+<nav>
+  <div class="brand">Sausage Therapy</div>
+  <div class="links">
+    <a href="index.html">Home</a>
+    <a href="book.html">Book</a>
+    <a href="academy.html">Academy</a>
+    <a href="pawport.html">Pawport</a>
+    <a href="farm.html">Farm</a>
+    <a href="corporate.html">Corporate</a>
+    <a href="impact.html">Impact</a>
+  </div>
+</nav>
+<section class="hero">
+  <div>
+    <div class="kicker">From true to tremendous</div>
+    <h1>Healing hearts with every wag — now with a full online empire behind it.</h1>
+    <p class="lead">Real miniature dachshunds. Real NDIS-friendly sessions. Forevermore Farm hinterland days. Digital academy, memberships, and Pawport World IDs so the dream compounds while you sleep.</p>
+    <div class="cta-row">
+      <a class="btn" href="book.html">Book a session</a>
+      <a class="btn gold" href="academy.html">Enter the Academy</a>
+      <a class="btn ghost" href="impact.html">See live impact</a>
     </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-sausage-800 px-4 py-4 space-y-3 text-sm">
-      <a href="#services" class="block hover:text-gold">Services</a>
-      <a href="#impact" class="block hover:text-gold">Impact</a>
-      <a href="#membership" class="block hover:text-gold">Membership</a>
-      <a href="#products" class="block hover:text-gold">Products</a>
-      <a href="#book" class="block bg-gold text-sausage-900 text-center py-2 rounded-full font-semibold">Book Now</a>
-    </div>
-  </nav>
-
-  <!-- Hero -->
-  <header class="hero-gradient text-white pt-24 pb-20 sm:pt-32 sm:pb-28 relative overflow-hidden">
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute top-20 left-10 w-64 h-64 rounded-full bg-gold blur-3xl"></div>
-      <div class="absolute bottom-10 right-10 w-96 h-96 rounded-full bg-sausage-400 blur-3xl"></div>
-    </div>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
-      <div class="max-w-3xl">
-        <p class="text-gold font-semibold tracking-widest uppercase text-xs sm:text-sm mb-4">Noosa Dachshunds · Forevermore Farm · Therapy Sausages</p>
-        <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-          From True Healing<br>to <span class="text-gold">Tremendous</span> Transformation
-        </h1>
-        <p class="text-lg sm:text-xl text-sausage-100 mb-8 leading-relaxed max-w-2xl">
-          Animal-assisted therapy with our cream miniature dachshunds. NDIS-friendly sessions, emotional support placements, corporate wellness, and a growing movement of conscious impact. Every booking feeds the dream.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="#book" class="inline-flex items-center justify-center bg-gold text-sausage-900 font-bold px-8 py-4 rounded-full text-lg hover:bg-yellow-400 transition shadow-lg shadow-gold/30">
-            Start Your Session
-          </a>
-          <a href="#impact" class="inline-flex items-center justify-center border-2 border-white/40 text-white font-semibold px-8 py-4 rounded-full text-lg hover:bg-white/10 transition">
-            See the Impact
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Live Impact Bar -->
-  <section class="bg-sausage-800 text-white py-4 border-b border-sausage-700">
-    <div class="max-w-6xl mx-auto px-4 flex flex-wrap items-center justify-center gap-6 sm:gap-12 text-center text-sm sm:text-base">
-      <div>
-        <span class="impact-number font-bold text-gold text-xl sm:text-2xl" id="sessions-count">247</span>
-        <span class="text-sausage-200 ml-1">sessions delivered</span>
-      </div>
-      <div>
-        <span class="impact-number font-bold text-gold text-xl sm:text-2xl" id="dogs-supported">18</span>
-        <span class="text-sausage-200 ml-1">dachshunds in the pack</span>
-      </div>
-      <div>
-        <span class="impact-number font-bold text-gold text-xl sm:text-2xl" id="lives-touched">1,200+</span>
-        <span class="text-sausage-200 ml-1">lives touched</span>
-      </div>
-      <div class="pulse-soft">
-        <span class="font-bold text-gold">● LIVE</span>
-        <span class="text-sausage-200 ml-1">Empire growing</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="py-20 sm:py-28">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="text-center mb-14">
-        <h2 class="font-display text-3xl sm:text-4xl font-bold text-sausage-800 mb-4">Therapy That Lands</h2>
-        <p class="text-sausage-600 max-w-2xl mx-auto text-lg">Real dogs. Real presence. Real results for trauma, anxiety, NDIS participants, and teams ready to feel human again.</p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-sausage-100">
-          <div class="w-14 h-14 rounded-xl bg-sausage-100 flex items-center justify-center text-3xl mb-5">🐕</div>
-          <h3 class="font-display text-xl font-semibold text-sausage-800 mb-3">1:1 & Small Group Sessions</h3>
-          <p class="text-sausage-600 mb-4">Guided animal-assisted therapy with our cream miniature dachshunds. Trauma-informed, calm, and deeply regulating for nervous systems.</p>
-          <p class="text-sm font-medium text-sausage-500">NDIS-ready · Mobile options available</p>
-        </div>
-        <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-sausage-100">
-          <div class="w-14 h-14 rounded-xl bg-sausage-100 flex items-center justify-center text-3xl mb-5">🏢</div>
-          <h3 class="font-display text-xl font-semibold text-sausage-800 mb-3">Corporate & Team Wellness</h3>
-          <p class="text-sausage-600 mb-4">Bring the sausages to your workplace. Short, high-impact sessions that reduce stress, boost connection, and leave teams smiling.</p>
-          <p class="text-sm font-medium text-sausage-500">Brisbane · Sunshine Coast · Mobile Coaster</p>
-        </div>
-        <div class="bg-white rounded-2xl p-8 shadow-lg card-hover border border-sausage-100">
-          <div class="w-14 h-14 rounded-xl bg-sausage-100 flex items-center justify-center text-3xl mb-5">🏡</div>
-          <h3 class="font-display text-xl font-semibold text-sausage-800 mb-3">Placements & Support Dogs</h3>
-          <p class="text-sausage-600 mb-4">Emotional support and therapy-ready dachshund placements from the Noosa lines. Carefully matched for the right human.</p>
-          <p class="text-sm font-medium text-sausage-500">Forevermore Farm lineage · Ongoing support</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Impact / Dream Growth -->
-  <section id="impact" class="py-20 sm:py-28 bg-sausage-50">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
-        <div>
-          <h2 class="font-display text-3xl sm:text-4xl font-bold text-sausage-800 mb-6">The Dream Is Growing</h2>
-          <p class="text-sausage-700 text-lg mb-6 leading-relaxed">
-            What began as true healing with a handful of cream dachshunds is becoming tremendous: a living system of therapy, recovery, farm sanctuary, and conscious wealth that funds more dogs, more sessions, and more freedom.
-          </p>
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-start gap-3">
-              <span class="text-gold text-xl mt-0.5">✓</span>
-              <span class="text-sausage-700"><strong>Every session</strong> directly supports the pack, the farm recovery, and future placements.</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="text-gold text-xl mt-0.5">✓</span>
-              <span class="text-sausage-700"><strong>Memberships & digital products</strong> create perpetual revenue so the work never stops.</span>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="text-gold text-xl mt-0.5">✓</span>
-              <span class="text-sausage-700"><strong>2032 Olympics & grant pathways</strong> are in motion — measurable impact attracts aligned capital.</span>
-            </li>
-          </ul>
-          <a href="#membership" class="inline-flex items-center font-semibold text-sausage-600 hover:text-sausage-800 transition">
-            Join the growth circle →
-          </a>
-        </div>
-        <div class="bg-white rounded-2xl p-8 shadow-xl border border-sausage-100">
-          <h3 class="font-display text-xl font-semibold text-sausage-800 mb-6">Live Empire Pulse</h3>
-          <div class="space-y-5">
-            <div>
-              <div class="flex justify-between text-sm mb-1">
-                <span class="text-sausage-600">Sessions this quarter</span>
-                <span class="font-semibold text-sausage-800">68 / 100 goal</span>
-              </div>
-              <div class="h-3 bg-sausage-100 rounded-full overflow-hidden">
-                <div class="h-full bg-sausage-500 rounded-full" style="width: 68%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between text-sm mb-1">
-                <span class="text-sausage-600">Membership seats filled</span>
-                <span class="font-semibold text-sausage-800">34 / 50</span>
-              </div>
-              <div class="h-3 bg-sausage-100 rounded-full overflow-hidden">
-                <div class="h-full bg-gold rounded-full" style="width: 68%"></div>
-              </div>
-            </div>
-            <div>
-              <div class="flex justify-between text-sm mb-1">
-                <span class="text-sausage-600">Impact fund (dogs & recovery)</span>
-                <span class="font-semibold text-sausage-800">$12.4k</span>
-              </div>
-              <div class="h-3 bg-sausage-100 rounded-full overflow-hidden">
-                <div class="h-full bg-sausage-400 rounded-full" style="width: 55%"></div>
-              </div>
-            </div>
-          </div>
-          <p class="mt-6 text-sm text-sausage-500 italic">Numbers update as the empire compounds. Your participation moves the needle.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Membership -->
-  <section id="membership" class="py-20 sm:py-28">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="text-center mb-14">
-        <h2 class="font-display text-3xl sm:text-4xl font-bold text-sausage-800 mb-4">Membership — Stay Inside the Dream</h2>
-        <p class="text-sausage-600 max-w-2xl mx-auto text-lg">Recurring support that keeps the therapy flowing, the pack thriving, and the farm recovering. Choose the level that matches your capacity.</p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-2xl p-8 border-2 border-sausage-100 card-hover">
-          <h3 class="font-display text-xl font-semibold text-sausage-800 mb-2">Sausage Circle</h3>
-          <p class="text-3xl font-bold text-sausage-700 mb-1">$29<span class="text-base font-normal text-sausage-500">/mo</span></p>
-          <p class="text-sm text-sausage-500 mb-6">Entry support · digital community</p>
-          <ul class="space-y-3 text-sausage-700 mb-8 text-sm">
-            <li>✓ Monthly dog wisdom letter</li>
-            <li>✓ Priority booking window</li>
-            <li>✓ Member-only stories & updates</li>
-            <li>✓ 10% off digital products</li>
-          </ul>
-          <a href="#book" class="block text-center bg-sausage-100 text-sausage-800 font-semibold py-3 rounded-full hover:bg-sausage-200 transition">Join Circle</a>
-        </div>
-        <div class="bg-sausage-800 text-white rounded-2xl p-8 border-2 border-gold relative card-hover shadow-xl scale-105">
-          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-sausage-900 text-xs font-bold px-3 py-1 rounded-full">MOST IMPACT</span>
-          <h3 class="font-display text-xl font-semibold mb-2">Therapy Pack</h3>
-          <p class="text-3xl font-bold text-gold mb-1">$79<span class="text-base font-normal text-sausage-300">/mo</span></p>
-          <p class="text-sm text-sausage-300 mb-6">Core membership · real sessions</p>
-          <ul class="space-y-3 text-sausage-100 mb-8 text-sm">
-            <li>✓ Everything in Circle</li>
-            <li>✓ 1 × 45-min virtual or in-person session / quarter</li>
-            <li>✓ Access to group wellness events</li>
-            <li>✓ Name on impact wall</li>
-            <li>✓ Direct line for placement interest</li>
-          </ul>
-          <a href="#book" class="block text-center bg-gold text-sausage-900 font-bold py-3 rounded-full hover:bg-yellow-400 transition">Join the Pack</a>
-        </div>
-        <div class="bg-white rounded-2xl p-8 border-2 border-sausage-100 card-hover">
-          <h3 class="font-display text-xl font-semibold text-sausage-800 mb-2">Forevermore Patron</h3>
-          <p class="text-3xl font-bold text-sausage-700 mb-1">$199<span class="text-base font-normal text-sausage-500">/mo</span></p>
-          <p class="text-sm text-sausage-500 mb-6">High-impact · co-create the future</p>
-          <ul class="space-y-3 text-sausage-700 mb-8 text-sm">
-            <li>✓ Everything in Therapy Pack</li>
-            <li>✓ Monthly 1:1 priority session</li>
-            <li>✓ Behind-the-scenes farm updates</li>
-            <li>✓ Influence on future programs</li>
-            <li>✓ Founding member recognition</li>
-          </ul>
-          <a href="#book" class="block text-center bg-sausage-100 text-sausage-800 font-semibold py-3 rounded-full hover:bg-sausage-200 transition">Become Patron</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Digital Products -->
-  <section id="products" class="py-20 sm:py-28 bg-sausage-900 text-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="text-center mb-14">
-        <h2 class="font-display text-3xl sm:text-4xl font-bold mb-4">Digital Tools That Travel With You</h2>
-        <p class="text-sausage-200 max-w-2xl mx-auto text-lg">Instant downloads and guided programs that extend the therapy beyond the session. Built from real experience with the pack.</p>
-      </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-sausage-800 rounded-xl p-6 border border-sausage-700 card-hover">
-          <div class="text-3xl mb-3">📘</div>
-          <h3 class="font-semibold text-lg mb-2">Nervous System Reset Guide</h3>
-          <p class="text-sausage-300 text-sm mb-4">Dog-led co-regulation practices you can use anywhere.</p>
-          <p class="font-bold text-gold">$27</p>
-        </div>
-        <div class="bg-sausage-800 rounded-xl p-6 border border-sausage-700 card-hover">
-          <div class="text-3xl mb-3">🎧</div>
-          <h3 class="font-semibold text-lg mb-2">Sausage Meditation Pack</h3>
-          <p class="text-sausage-300 text-sm mb-4">Audio journeys with real pack sounds and guided calm.</p>
-          <p class="font-bold text-gold">$19</p>
-        </div>
-        <div class="bg-sausage-800 rounded-xl p-6 border border-sausage-700 card-hover">
-          <div class="text-3xl mb-3">📋</div>
-          <h3 class="font-semibold text-lg mb-2">NDIS Session Planner</h3>
-          <p class="text-sausage-300 text-sm mb-4">Templates + language for animal-assisted therapy goals.</p>
-          <p class="font-bold text-gold">$37</p>
-        </div>
-        <div class="bg-sausage-800 rounded-xl p-6 border border-sausage-700 card-hover">
-          <div class="text-3xl mb-3">🏡</div>
-          <h3 class="font-semibold text-lg mb-2">Home Sanctuary Blueprint</h3>
-          <p class="text-sausage-300 text-sm mb-4">Create a calm environment that supports regulation.</p>
-          <p class="font-bold text-gold">$47</p>
-        </div>
-      </div>
-      <div class="text-center mt-10">
-        <a href="#book" class="inline-flex items-center bg-gold text-sausage-900 font-bold px-8 py-3 rounded-full hover:bg-yellow-400 transition">
-          Get Digital Access
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Book / Lead Capture -->
-  <section id="book" class="py-20 sm:py-28">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6">
-      <div class="bg-white rounded-3xl shadow-2xl border border-sausage-100 p-8 sm:p-12">
-        <div class="text-center mb-8">
-          <h2 class="font-display text-3xl sm:text-4xl font-bold text-sausage-800 mb-3">Let’s Grow This Together</h2>
-          <p class="text-sausage-600 text-lg">Tell us what you need — session, membership, placement interest, or corporate visit. We respond personally.</p>
-        </div>
-        <form id="interest-form" class="space-y-5" onsubmit="handleSubmit(event)">
-          <div>
-            <label for="name" class="block text-sm font-medium text-sausage-700 mb-1">Your name</label>
-            <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-xl border border-sausage-200 focus:ring-2 focus:ring-sausage-500 focus:border-transparent outline-none transition" placeholder="How we should address you">
-          </div>
-          <div>
-            <label for="email" class="block text-sm font-medium text-sausage-700 mb-1">Email</label>
-            <input type="email" id="email" name="email" required class="w-full px-4 py-3 rounded-xl border border-sausage-200 focus:ring-2 focus:ring-sausage-500 focus:border-transparent outline-none transition" placeholder="you@example.com">
-          </div>
-          <div>
-            <label for="interest" class="block text-sm font-medium text-sausage-700 mb-1">I’m interested in</label>
-            <select id="interest" name="interest" class="w-full px-4 py-3 rounded-xl border border-sausage-200 focus:ring-2 focus:ring-sausage-500 focus:border-transparent outline-none transition">
-              <option value="session">1:1 or group therapy session</option>
-              <option value="membership">Membership (Circle / Pack / Patron)</option>
-              <option value="placement">Emotional support / therapy dog placement</option>
-              <option value="corporate">Corporate or team wellness</option>
-              <option value="digital">Digital products & guides</option>
-              <option value="other">Something else — tell us below</option>
-            </select>
-          </div>
-          <div>
-            <label for="message" class="block text-sm font-medium text-sausage-700 mb-1">Message (optional)</label>
-            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-xl border border-sausage-200 focus:ring-2 focus:ring-sausage-500 focus:border-transparent outline-none transition resize-none" placeholder="Anything you want us to know..."></textarea>
-          </div>
-          <button type="submit" class="w-full bg-sausage-700 hover:bg-sausage-800 text-white font-bold py-4 rounded-xl text-lg transition shadow-lg">
-            Send Interest — Let’s Make It Tremendous
-          </button>
-        </form>
-        <div id="form-success" class="hidden text-center py-8">
-          <div class="text-5xl mb-4">✨</div>
-          <h3 class="font-display text-2xl font-bold text-sausage-800 mb-2">Received with care</h3>
-          <p class="text-sausage-600">We’ll be in touch soon. The dream just got a little bigger because of you.</p>
-        </div>
-        <p class="text-center text-xs text-sausage-400 mt-6">By submitting you agree to be contacted about Sausage Therapy services. Privacy respected. No spam.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-sausage-900 text-sausage-300 py-12">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-        <div class="text-center md:text-left">
-          <p class="font-display text-xl text-white mb-1">Sausage Therapy</p>
-          <p class="text-sm">Therapy Sausages · Noosa Dachshunds · Forevermore Farm</p>
-        </div>
-        <div class="flex gap-6 text-sm">
-          <a href="#services" class="hover:text-gold transition">Services</a>
-          <a href="#membership" class="hover:text-gold transition">Membership</a>
-          <a href="#products" class="hover:text-gold transition">Products</a>
-          <a href="#book" class="hover:text-gold transition">Contact</a>
-        </div>
-      </div>
-      <div class="mt-8 pt-8 border-t border-sausage-800 text-center text-xs text-sausage-500">
-        <p>© 2026 Sausage Therapy / Forevermore. Built to grow the dream from true to tremendous.</p>
-        <p class="mt-2">Every element on this site exists to serve the dogs, the healing, and the empire that funds both.</p>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    // Mobile menu
-    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
-      document.getElementById('mobile-menu').classList.toggle('hidden');
-    });
-
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          document.getElementById('mobile-menu').classList.add('hidden');
-        }
-      });
-    });
-
-    // Form handling (client-side for now — replace with Formspree / backend later)
-    function handleSubmit(e) {
-      e.preventDefault();
-      const form = document.getElementById('interest-form');
-      const success = document.getElementById('form-success');
-      form.classList.add('hidden');
-      success.classList.remove('hidden');
-      // In production: send to Formspree, Supabase, or your Remix action
-      console.log('Interest submitted — ready for backend hookup');
-    }
-
-    // Gentle live counter animation on load
-    function animateValue(id, start, end, duration) {
-      const el = document.getElementById(id);
-      if (!el) return;
-      let startTimestamp = null;
-      const step = (timestamp) => {
-        if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        const value = Math.floor(progress * (end - start) + start);
-        el.textContent = id === 'lives-touched' ? value.toLocaleString() + '+' : value;
-        if (progress < 1) window.requestAnimationFrame(step);
-      };
-      window.requestAnimationFrame(step);
-    }
-    window.addEventListener('load', () => {
-      animateValue('sessions-count', 180, 247, 1800);
-      animateValue('dogs-supported', 10, 18, 1600);
-    });
-  </script>
+  </div>
+  <div class="pulse">
+    <div class="kicker" style="color:var(--gold)">Live pulse</div>
+    <p style="font-size:1.35rem;line-height:1.3;margin:.4em 0 0">247+ hearts held. <strong>$18.4k</strong> given back to dogs. 62 NDIS sessions. The pack of five still working.</p>
+    <p style="opacity:.8;margin:.8em 0 0">Led by Emily Blue Richards · Forevermore Farm · Noosa Dachshunds</p>
+  </div>
+</section>
+<div class="stats">
+  <div class="stat"><b>5</b> working pack remaining</div>
+  <div class="stat"><b>$150+</b> individual sessions</div>
+  <div class="stat"><b>$450+</b> corporate days</div>
+  <div class="stat"><b>∞</b> wags delivered</div>
+</div>
+<h2>New online elements — live now</h2>
+<div class="grid">
+  <a class="card" href="book.html" style="text-decoration:none"><div class="kicker">01</div><h3>Booking desk</h3><p>1:1, family, NDIS and mobile sessions. One form. No repeating yourself.</p></a>
+  <a class="card" href="academy.html" style="text-decoration:none"><div class="kicker">02</div><h3>Digital Academy</h3><p>Therapy-dog systems, NDIS setup, retreat blueprints. Memberships that stack.</p></a>
+  <a class="card" href="pawport.html" style="text-decoration:none"><div class="kicker">03</div><h3>Pawport World ID</h3><p>GPS + ISO chip + collar registry. First 10,000 World IDs.</p></a>
+  <a class="card" href="farm.html" style="text-decoration:none"><div class="kicker">04</div><h3>Forevermore Farm</h3><p>Hinterland immersions. Nature + sausages = nervous-system reset.</p></a>
+  <a class="card" href="corporate.html" style="text-decoration:none"><div class="kicker">05</div><h3>Corporate hub</h3><p>Offices, team days, SNOUTSAIL boat sessions. Stress reduction that works.</p></a>
+  <a class="card" href="impact.html" style="text-decoration:none"><div class="kicker">06</div><h3>Impact dashboard</h3><p>Hearts healed, dollars given back, Dream Seed Fund, Opportunity Radar.</p></a>
+</div>
+<footer>
+  Giving-first. A portion of every booking and product supports dog welfare and free access for people who need it most.<br/>
+  Existing live sites: <a href="https://therapysausages.vercel.app/">therapysausages.vercel.app</a> · <a href="https://forevermore63.github.io/">forevermore63.github.io</a> · <a href="https://github.com/forevermore63/sausage-therapy-empire">empire app</a>
+</footer>
+</div>
 </body>
 </html>

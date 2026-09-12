@@ -2,35 +2,22 @@
 
 **From true to tremendous.**
 
-New online elements for the Sausage Therapy / Therapy Sausages / Noosa Dachshunds / Forevermore Farm empire.
+New multi-page online layer for Sausage Therapy / Therapy Sausages / Noosa Dachshunds / Forevermore Farm.
 
-## What’s live here
+## Pages
 
-- High-converting landing page with full brand voice
-- Services (1:1, corporate, placements)
-- Live impact pulse bar + progress dashboard
-- Membership tiers (Sausage Circle / Therapy Pack / Forevermore Patron)
-- Digital product grid ready for Shopify or Gumroad
-- Interest / booking lead form (ready to hook to Formspree, Supabase, or Remix action)
-- Mobile-first, SEO-ready, beautiful dark-green + cream + gold aesthetic
+- `index.html` — empire hub + live pulse
+- `book.html` — booking desk
+- `academy.html` — memberships + $997 academy
+- `pawport.html` — Pawport World ID
+- `farm.html` — Forevermore Farm immersions
+- `corporate.html` — offices, groups, SNOUTSAIL
+- `impact.html` — impact dashboard + Dream Seed Fund
 
-## Deploy
+## Live cousins
 
-This is a pure static site. Deploy to Vercel, Netlify, or any static host in seconds.
+- https://therapysausages.vercel.app/
+- https://forevermore63.github.io/
+- https://github.com/forevermore63/sausage-therapy-empire
 
-```bash
-# From this folder
-npx vercel --prod
-```
-
-Or connect the GitHub repo `forevermore63/sausage-therapy-online-empire` to Vercel for continuous deployment.
-
-## Next layers (ready to add)
-
-1. Stripe Checkout for memberships & digital products
-2. Remix + Supabase backend for real bookings & member portal
-3. Klaviyo / email sequences for the form
-4. Visual content gallery feeding from the visual-wealth-upsurge pipeline
-5. Revenue dashboard page pulling live numbers
-
-Built with ruthless complete execution for the empire.
+Built 13 Sep 2026 as the next online expansion.
